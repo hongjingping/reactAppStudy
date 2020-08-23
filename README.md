@@ -14,3 +14,6 @@ react-transtion-group
   1. Store 的创建
   2. `yarn add redux`
   3. 创建store
+
+## action和reducer的编写
+  1. 
