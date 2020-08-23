@@ -11,6 +11,7 @@ class TodoList extends React.Component {
     this.handleInputChange = this.handleInputChange.bind(this)
     this.handleStoreChange = this.handleStoreChange.bind(this)
     this.handleButtonClick = this.handleButtonClick.bind(this)
+    this.handleItemDelete = this.handleItemDelete.bind(this)
     store.subscribe(this.handleStoreChange)
   }
 
@@ -30,8 +31,8 @@ class TodoList extends React.Component {
           style={{ width: '300px', marginTop: '10px'}}
           bordered
           dataSource={this.state.list}
-          renderItem={item => (
-            <List.Item>
+          renderItem={(item, index) => (
+            <List.Item onClick={this.handleItemDelete.bind(this, index)}>
               {item}
             </List.Item>
           )}
@@ -57,6 +58,14 @@ class TodoList extends React.Component {
   handleButtonClick () {
     const action = {
       type: 'add_todo_item'
+    }
+    store.dispatch(action)
+  }
+
+  handleItemDelete (index) {
+    const action = {
+      type: 'delete_todo_item',
+      index
     }
     store.dispatch(action)
   }
