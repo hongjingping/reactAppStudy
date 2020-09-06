@@ -37,4 +37,6 @@ react-transtion-group
       3. store.subscribe() 订阅store中的改变，只要store发生改变，store的接收函数就会发生改变
 ## UI组件和容器组件的拆分
 
-## 无状态组件
+## 无状态组件(只有render函数的时候，如UI组件)
+
+## redux发送ajax请求获取数据
