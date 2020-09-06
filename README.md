@@ -40,3 +40,6 @@ react-transtion-group
 ## 无状态组件(只有render函数的时候，如UI组件)
 
 ## redux发送ajax请求获取数据
+
+## 使用redux-thunk中间件实现ajax数据请求
+1. yarn add redux-thunk
