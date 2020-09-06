@@ -48,3 +48,6 @@ react-transtion-group
 
 ## redux-saga中间件的使用
 1. yarn add redux-saga
+
+## react-redux的使用
+1. yarn add react-redux
