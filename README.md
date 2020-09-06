@@ -43,3 +43,8 @@ react-transtion-group
 
 ## 使用redux-thunk中间件实现ajax数据请求
 1. yarn add redux-thunk
+
+## redux中间件(对dispatch方法的升级)
+
+## redux-saga中间件的使用
+1. yarn add redux-saga
