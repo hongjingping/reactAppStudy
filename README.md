@@ -35,3 +35,4 @@ react-transtion-group
       1. store.dispatch() 派发action，传递给store
       2. store.getState() 获取store中的所有数据内容
       3. store.subscribe() 订阅store中的改变，只要store发生改变，store的接收函数就会发生改变
+## UI组件和容器组件的拆分
