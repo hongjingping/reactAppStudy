@@ -24,3 +24,14 @@ react-transtion-group
 ## 拆分actionTypes
 
 ## 使用actionCreator统一创建action
+
+## Redux设计和使用原则知识补充
+  1. store必须是唯一的
+  2. 只有store能改变自己的内容
+  3. reducer可以接收state，但是不能改变state
+  4. 纯函数指的是，给固定的输入，就一定会有固定的输出，而且不会有副作用
+  5. Redux中核心的API
+    1. createStore
+      1. store.dispatch() 派发action，传递给store
+      2. store.getState() 获取store中的所有数据内容
+      3. store.subscribe() 订阅store中的改变，只要store发生改变，store的接收函数就会发生改变
