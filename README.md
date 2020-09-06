@@ -51,3 +51,7 @@ react-transtion-group
 
 ## react-redux的使用
 1. yarn add react-redux
+
+## 项目搭建，styled-components与reset.css的结合使用
+  1. create-react-app jianshu
+  2. 
