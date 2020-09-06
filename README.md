@@ -20,3 +20,7 @@ react-transtion-group
 
 ## 使用antd编写todolist页面布局
   1. 
+
+## 拆分actionTypes
+
+## 使用actionCreator统一创建action
