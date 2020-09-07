@@ -5,8 +5,5 @@ import './style.js'
 import './statics/iconfont/iconfont.js'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,document.getElementById('root')
 );
