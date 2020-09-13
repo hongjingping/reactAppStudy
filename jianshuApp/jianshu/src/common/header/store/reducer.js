@@ -6,10 +6,10 @@ import { fromJS } from 'immutable'
 
 const defaultState = fromJS({
   facused: false,
+  mouseIn: false,  
   list: [],
   page: 1,
-  totalPage: 1,
-  mouseIn: false
+  totalPage: 1
 })
 
 export default (state = defaultState, action) => {
