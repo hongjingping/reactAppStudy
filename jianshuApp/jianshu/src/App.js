@@ -4,6 +4,8 @@ import {Globalstyle} from './style.js'
 import { BrowserRouter, Route } from 'react-router-dom'
 import {IconGlobalstyle} from './statics/iconfont/iconfont.js'
 import Header from './common/header'
+import Home from './pages/home'
+import Detail from './pages/detail'
 import store from './store'
 
 function App() {
@@ -16,8 +18,8 @@ function App() {
           <Header/>
           <BrowserRouter>
             <div>
-              <Route path='/' render={() => <div>Home</div>}></Route>
-              <Route path='/detail' render={() => <div>Detail</div>}></Route>
+              <Route path='/' exact component={Home}></Route>
+              <Route path='/detail' exact component={Detail}></Route>
             </div>
           </BrowserRouter>
         </div>
