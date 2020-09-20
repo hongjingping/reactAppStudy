@@ -1,23 +1,51 @@
 import { fromJS } from 'immutable'
 
 const defaultState = fromJS({
-  topicList: [{
-    id: 1,
-    title: "社会热点1",
-    url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
-  },{
-    id: 2,
-    title: "社会热点2",
-    url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
-  },{
-    id: 3,
-    title: "社会热点3",
-    url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
-  },{
-    id: 4,
-    title: "社会热点4",
-    url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
-  }]
+  topicList: [
+    {
+      id: 1,
+      title: "社会热点1",
+      url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+    },{
+      id: 2,
+      title: "社会热点2",
+      url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+    },{
+      id: 3,
+      title: "社会热点3",
+      url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+    },{
+      id: 4,
+      title: "社会热点4",
+      url: "https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+    }
+  ],
+  articleList: [
+    {
+      id: 1,
+      title: '姑娘，你要明白，能让你在婆家立足的，永远不是坚强和忍耐1',
+      desc: '愿我的故事细水长流，敬你的孤独择日而终。关注微光，看尽人生百态...',
+      imgUrl: 'https://upload-images.jianshu.io/upload_images/16293134-b4654bc59de778e0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
+    },
+    {
+      id: 2,
+      title: '姑娘，你要明白，能让你在婆家立足的，永远不是坚强和忍耐2',
+      desc: '愿我的故事细水长流，敬你的孤独择日而终。关注微光，看尽人生百态...',
+      imgUrl: 'https://upload-images.jianshu.io/upload_images/16293134-b4654bc59de778e0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
+    },
+    {
+      id: 3,
+      title: '姑娘，你要明白，能让你在婆家立足的，永远不是坚强和忍耐3',
+      desc: '愿我的故事细水长流，敬你的孤独择日而终。关注微光，看尽人生百态...',
+      imgUrl: 'https://upload-images.jianshu.io/upload_images/16293134-b4654bc59de778e0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
+    },
+    {
+      id: 4,
+      title: '姑娘，你要明白，能让你在婆家立足的，永远不是坚强和忍耐4',
+      desc: '愿我的故事细水长流，敬你的孤独择日而终。关注微光，看尽人生百态...',
+      imgUrl: 'https://upload-images.jianshu.io/upload_images/16293134-b4654bc59de778e0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
+    }
+  ]
 })
 
 export default (state = defaultState, action) => {

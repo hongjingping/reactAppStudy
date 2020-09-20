@@ -70,6 +70,7 @@ export const SearchInfo = styled.div`
   // height: 100px;
   // background: green;
   box-shadow: 0 0 8px rgba(0, 0, 0, .2)
+  background: #FFF;
 `
 
 export const SearchInfoTitle = styled.div`
