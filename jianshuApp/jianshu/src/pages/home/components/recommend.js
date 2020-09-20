@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import {RecomendWrapper, RecomendItem} from '../style'
 import {connect} from 'react-redux'
 
-class Recommend extends Component {
+class Recommend extends PureComponent {
   render () {
     return (
       <div>
@@ -21,4 +21,4 @@ const mapState = (state) => ({
   list: state.getIn(['home', 'recommendList'])
 })
 
-export default connect(mapState, null)(Recommend)
+export default connect(mapState, null)(Recommend);
