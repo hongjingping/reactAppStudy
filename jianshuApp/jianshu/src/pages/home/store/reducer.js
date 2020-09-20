@@ -45,6 +45,24 @@ const defaultState = fromJS({
       desc: '愿我的故事细水长流，敬你的孤独择日而终。关注微光，看尽人生百态...',
       imgUrl: 'https://upload-images.jianshu.io/upload_images/16293134-b4654bc59de778e0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
     }
+  ],
+  recommendList: [
+    {
+      id: 1,
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    },
+    {
+      id: 2,
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    },
+    {
+      id: 3,
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    },
+    {
+      id: 4,
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/12708103/c2b9934e-e106-4923-b892-18aacf16eb41.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    }
   ]
 })
 
